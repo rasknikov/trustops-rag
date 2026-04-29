@@ -1,0 +1,73 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Build and packaging
+build/
+dist/
+site/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Logs and runtime files
+*.log
+*.pid
+*.pid.lock
+*.out
+*.err
+
+# Local configuration and secrets
+.env
+.env.*
+*.local
+
+# Project-local study/work artifacts
+.local/
+
+# Jupyter and notebooks
+.ipynb_checkpoints/
+
+# Node / frontend caches
+node_modules/
+.npm/
+.pnpm-store/
+.yarn/
+coverage/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.suo
+*.user
+*.userossc
+*.sln.docstates
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
